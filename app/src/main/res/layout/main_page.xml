@@ -1,104 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/main_page_backgound">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/layout_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/left" />
+
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/right" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/main_view"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="40dp"
             android:text="Today you drank"
             android:textColor="@color/colorPrimaryDark"
-            android:paddingTop="60dp"
-            android:textSize="20sp"
-            android:layout_gravity="center_horizontal"/>
+            android:textSize="20sp" />
 
         <com.github.lzyzsd.circleprogress.DonutProgress
             android:id="@+id/donut_progress"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             custom:donut_finished_color="@color/colorPrimaryDark"
-            custom:donut_unfinished_stroke_width="5dp"
-            custom:donut_unfinished_color="@color/blue"
             custom:donut_finished_stroke_width="10dp"
+            custom:donut_text_color="@color/colorPrimaryDark"
             custom:donut_text_size="50sp"
-            custom:donut_text_color="@color/colorPrimaryDark"/>
+            custom:donut_unfinished_color="@color/blue"
+            custom:donut_unfinished_stroke_width="5dp" />
+
         <TextView
+            android:id="@+id/choosen_drink_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:textColor="@color/colorPrimaryDark"
-            android:layout_marginStart="180dp"
-            android:textSize="15sp"
-            android:id="@+id/choosen_drink_text"
-            />
+            android:textSize="22sp" />
 
         <Button
+
+            android:id="@+id/add_drink_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/add_drink_button"
-            android:text="add a drink"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:tint ="@color/colorPrimaryDark"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/drink_button"/>
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_btn_add"
+            android:text="add a drink"
+            android:textColor="@color/colorPrimaryDark"
+            android:tint="@color/colorPrimaryDark" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
             android:paddingTop="30dp">
+
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/log_button"
-                android:src = "@drawable/history_icon"
-                android:tint="@color/colorPrimaryDark"
-                android:padding="7dp"
-                android:background="@drawable/circle_button"
-                />
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/ic_clock"
+                android:padding="7dp"
+                />
+
+            <ImageButton
                 android:id="@+id/outlines_button"
-                android:src = "@drawable/info"
-                android:tint="@color/colorPrimaryDark"
-                android:padding="7dp"
-                android:layout_marginLeft="15dp"
-                android:background="@drawable/circle_button"
-                />
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:padding="7dp"
+                android:background="@drawable/share"
+                />
+
+            <ImageButton
                 android:id="@+id/chart_button"
-                android:src = "@drawable/show_chart"
-                android:tint="@color/colorPrimaryDark"
-                android:padding="7dp"
-                android:layout_marginLeft="15dp"
-                android:background="@drawable/circle_button"
-                />
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/setting_button"
-                android:src = "@drawable/setting_icon"
-                android:tint="@color/colorPrimaryDark"
-                android:padding="7dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/circle_button"
+                android:background="@drawable/ic_chart"
+                android:padding="7dp"
+                />
+
+            <ImageButton
+                android:id="@+id/setting_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:padding="7dp"
+                android:background="@drawable/ic_settings"
                 />
         </LinearLayout>
 

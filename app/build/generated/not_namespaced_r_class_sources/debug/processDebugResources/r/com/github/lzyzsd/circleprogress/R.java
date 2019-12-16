@@ -12,59 +12,59 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int arcProgressStyle = 0x7f030028;
-        public static final int arc_angle = 0x7f030029;
-        public static final int arc_bottom_text = 0x7f03002a;
-        public static final int arc_bottom_text_size = 0x7f03002b;
-        public static final int arc_finished_color = 0x7f03002c;
-        public static final int arc_max = 0x7f03002d;
-        public static final int arc_progress = 0x7f03002e;
-        public static final int arc_stroke_width = 0x7f03002f;
-        public static final int arc_suffix_text = 0x7f030030;
-        public static final int arc_suffix_text_padding = 0x7f030031;
-        public static final int arc_suffix_text_size = 0x7f030032;
-        public static final int arc_text_color = 0x7f030033;
-        public static final int arc_text_size = 0x7f030034;
-        public static final int arc_unfinished_color = 0x7f030035;
-        public static final int circleProgressStyle = 0x7f030055;
-        public static final int circle_finished_color = 0x7f030056;
-        public static final int circle_max = 0x7f030057;
-        public static final int circle_prefix_text = 0x7f030058;
-        public static final int circle_progress = 0x7f030059;
-        public static final int circle_suffix_text = 0x7f03005a;
-        public static final int circle_text_color = 0x7f03005b;
-        public static final int circle_text_size = 0x7f03005c;
-        public static final int circle_unfinished_color = 0x7f03005d;
-        public static final int donutProgressStyle = 0x7f030084;
-        public static final int donut_background_color = 0x7f030085;
-        public static final int donut_finished_color = 0x7f030086;
-        public static final int donut_finished_stroke_width = 0x7f030087;
-        public static final int donut_inner_bottom_text = 0x7f030088;
-        public static final int donut_inner_bottom_text_color = 0x7f030089;
-        public static final int donut_inner_bottom_text_size = 0x7f03008a;
-        public static final int donut_max = 0x7f03008b;
-        public static final int donut_prefix_text = 0x7f03008c;
-        public static final int donut_progress = 0x7f03008d;
-        public static final int donut_suffix_text = 0x7f03008e;
-        public static final int donut_text_color = 0x7f03008f;
-        public static final int donut_text_size = 0x7f030090;
-        public static final int donut_unfinished_color = 0x7f030091;
-        public static final int donut_unfinished_stroke_width = 0x7f030092;
+        public static final int arcProgressStyle = 0x7f040029;
+        public static final int arc_angle = 0x7f04002a;
+        public static final int arc_bottom_text = 0x7f04002b;
+        public static final int arc_bottom_text_size = 0x7f04002c;
+        public static final int arc_finished_color = 0x7f04002d;
+        public static final int arc_max = 0x7f04002e;
+        public static final int arc_progress = 0x7f04002f;
+        public static final int arc_stroke_width = 0x7f040030;
+        public static final int arc_suffix_text = 0x7f040031;
+        public static final int arc_suffix_text_padding = 0x7f040032;
+        public static final int arc_suffix_text_size = 0x7f040033;
+        public static final int arc_text_color = 0x7f040034;
+        public static final int arc_text_size = 0x7f040035;
+        public static final int arc_unfinished_color = 0x7f040036;
+        public static final int circleProgressStyle = 0x7f040085;
+        public static final int circle_finished_color = 0x7f040086;
+        public static final int circle_max = 0x7f040087;
+        public static final int circle_prefix_text = 0x7f040088;
+        public static final int circle_progress = 0x7f040089;
+        public static final int circle_suffix_text = 0x7f04008a;
+        public static final int circle_text_color = 0x7f04008b;
+        public static final int circle_text_size = 0x7f04008c;
+        public static final int circle_unfinished_color = 0x7f04008d;
+        public static final int donutProgressStyle = 0x7f0400c5;
+        public static final int donut_background_color = 0x7f0400c6;
+        public static final int donut_finished_color = 0x7f0400c7;
+        public static final int donut_finished_stroke_width = 0x7f0400c8;
+        public static final int donut_inner_bottom_text = 0x7f0400c9;
+        public static final int donut_inner_bottom_text_color = 0x7f0400ca;
+        public static final int donut_inner_bottom_text_size = 0x7f0400cb;
+        public static final int donut_max = 0x7f0400cc;
+        public static final int donut_prefix_text = 0x7f0400cd;
+        public static final int donut_progress = 0x7f0400ce;
+        public static final int donut_suffix_text = 0x7f0400cf;
+        public static final int donut_text_color = 0x7f0400d0;
+        public static final int donut_text_size = 0x7f0400d1;
+        public static final int donut_unfinished_color = 0x7f0400d2;
+        public static final int donut_unfinished_stroke_width = 0x7f0400d3;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int ic_launcher = 0x7f070063;
+        public static final int ic_launcher = 0x7f080072;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0e0021;
+        public static final int app_name = 0x7f100029;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] ArcProgress = { 0x7f030029, 0x7f03002a, 0x7f03002b, 0x7f03002c, 0x7f03002d, 0x7f03002e, 0x7f03002f, 0x7f030030, 0x7f030031, 0x7f030032, 0x7f030033, 0x7f030034, 0x7f030035 };
+        public static final int[] ArcProgress = { 0x7f04002a, 0x7f04002b, 0x7f04002c, 0x7f04002d, 0x7f04002e, 0x7f04002f, 0x7f040030, 0x7f040031, 0x7f040032, 0x7f040033, 0x7f040034, 0x7f040035, 0x7f040036 };
         public static final int ArcProgress_arc_angle = 0;
         public static final int ArcProgress_arc_bottom_text = 1;
         public static final int ArcProgress_arc_bottom_text_size = 2;
@@ -78,7 +78,7 @@ public final class R {
         public static final int ArcProgress_arc_text_color = 10;
         public static final int ArcProgress_arc_text_size = 11;
         public static final int ArcProgress_arc_unfinished_color = 12;
-        public static final int[] CircleProgress = { 0x7f030056, 0x7f030057, 0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 0x7f03005c, 0x7f03005d };
+        public static final int[] CircleProgress = { 0x7f040086, 0x7f040087, 0x7f040088, 0x7f040089, 0x7f04008a, 0x7f04008b, 0x7f04008c, 0x7f04008d };
         public static final int CircleProgress_circle_finished_color = 0;
         public static final int CircleProgress_circle_max = 1;
         public static final int CircleProgress_circle_prefix_text = 2;
@@ -87,7 +87,7 @@ public final class R {
         public static final int CircleProgress_circle_text_color = 5;
         public static final int CircleProgress_circle_text_size = 6;
         public static final int CircleProgress_circle_unfinished_color = 7;
-        public static final int[] DonutProgress = { 0x7f030085, 0x7f030086, 0x7f030087, 0x7f030088, 0x7f030089, 0x7f03008a, 0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 0x7f03008f, 0x7f030090, 0x7f030091, 0x7f030092 };
+        public static final int[] DonutProgress = { 0x7f0400c6, 0x7f0400c7, 0x7f0400c8, 0x7f0400c9, 0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400cd, 0x7f0400ce, 0x7f0400cf, 0x7f0400d0, 0x7f0400d1, 0x7f0400d2, 0x7f0400d3 };
         public static final int DonutProgress_donut_background_color = 0;
         public static final int DonutProgress_donut_finished_color = 1;
         public static final int DonutProgress_donut_finished_stroke_width = 2;
@@ -102,7 +102,7 @@ public final class R {
         public static final int DonutProgress_donut_text_size = 11;
         public static final int DonutProgress_donut_unfinished_color = 12;
         public static final int DonutProgress_donut_unfinished_stroke_width = 13;
-        public static final int[] Themes = { 0x7f030028, 0x7f030055, 0x7f030084 };
+        public static final int[] Themes = { 0x7f040029, 0x7f040085, 0x7f0400c5 };
         public static final int Themes_arcProgressStyle = 0;
         public static final int Themes_circleProgressStyle = 1;
         public static final int Themes_donutProgressStyle = 2;

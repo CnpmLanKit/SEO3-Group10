@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bitbucket\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "D:\\BTCNPM\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\df7cce3e98cb625bc3f09e81ea0af4c0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Win 10 Pro x64\\.gradle\\caches\\transforms-2\\files-2.1\\758b5ed9ed11afefde7331320996cced\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,29 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bitbucket\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "D:\\BTCNPM\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\fbdbfbc0b7dfcc5dece4ab0e7cdbfa68\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Win 10 Pro x64\\.gradle\\caches\\transforms-2\\files-2.1\\257f8b0da204b9c8276a6f382e1b5776\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
-                        "endLines": "2,3,4,5,6,7,8,9,10,14",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,17,18,19",
+                        "startLines": "10,11,12,13,14,15,16,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1233",
-                        "endLines": "10,11,12,13,14,15,16,17,18,22",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1173,1236",
+                        "endLines": "10,11,12,13,14,15,17,18,19,23",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1231,1403"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\df7cce3e98cb625bc3f09e81ea0af4c0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Win 10 Pro x64\\.gradle\\caches\\transforms-2\\files-2.1\\758b5ed9ed11afefde7331320996cced\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -12,14 +12,14 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int maxValue = 0x7f0300da;
-        public static final int minValue = 0x7f0300dd;
-        public static final int wrapSelectorWheel = 0x7f03015f;
+        public static final int maxValue = 0x7f040150;
+        public static final int minValue = 0x7f040153;
+        public static final int wrapSelectorWheel = 0x7f040205;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] NumberPickerPreference = { 0x7f0300da, 0x7f0300dd, 0x7f03015f };
+        public static final int[] NumberPickerPreference = { 0x7f040150, 0x7f040153, 0x7f040205 };
         public static final int NumberPickerPreference_maxValue = 0;
         public static final int NumberPickerPreference_minValue = 1;
         public static final int NumberPickerPreference_wrapSelectorWheel = 2;

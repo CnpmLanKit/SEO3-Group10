@@ -22,5 +22,13 @@
     {
         "merged": "C:\\Users\\Hussain\\Desktop\\android\\git\\Water-Tracker-App\\Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Hussain\\Desktop\\android\\git\\Water-Tracker-App\\Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\cnpm_kevil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\water_drop.png",
+        "source": "D:\\cnpm_kevil\\app\\src\\main\\res\\mipmap-mdpi\\water_drop.png"
+    },
+    {
+        "merged": "D:\\cnpm_kevil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\cnpm_kevil\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

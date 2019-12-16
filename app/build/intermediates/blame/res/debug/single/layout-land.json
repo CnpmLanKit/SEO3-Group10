@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Hussain\\Desktop\\android\\Android\\app\\src\\main\\res\\layout-land\\main_page.xml"
     },
     {
+        "merged": "D:\\cnpm_kevil\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\main_page.xml",
+        "source": "D:\\cnpm_kevil\\app\\src\\main\\res\\layout-land\\main_page.xml"
+    },
+    {
         "merged": "C:\\Users\\Hussain\\Desktop\\android\\git\\Water-Tracker-App\\Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\main_page.xml",
         "source": "C:\\Users\\Hussain\\Desktop\\android\\git\\Water-Tracker-App\\Android\\app\\src\\main\\res\\layout-land\\main_page.xml"
     },

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\BTCNPM\Water-Tracker-App-master\Water-Tracker-App-master\Android\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\BTCNPM\Water-Tracker-App-master\Water-Tracker-App-master\Android\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\cnpm_kevil\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\cnpm_kevil\app\src\debug\jniLibs"/></dataSet></merger>

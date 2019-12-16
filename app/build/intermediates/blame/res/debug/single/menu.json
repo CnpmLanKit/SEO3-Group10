@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Hussain\\Desktop\\android\\git\\Water-Tracker-App\\Android\\app\\src\\main\\res\\menu\\menu_time_log.xml"
     },
     {
+        "merged": "D:\\cnpm_kevil\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_time_log.xml",
+        "source": "D:\\cnpm_kevil\\app\\src\\main\\res\\menu\\menu_time_log.xml"
+    },
+    {
         "merged": "D:\\BTCNPM\\Water-Tracker-App-master\\Water-Tracker-App-master\\Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_time_log.xml",
         "source": "D:\\BTCNPM\\Water-Tracker-App-master\\Water-Tracker-App-master\\Android\\app\\src\\main\\res\\menu\\menu_time_log.xml"
     }

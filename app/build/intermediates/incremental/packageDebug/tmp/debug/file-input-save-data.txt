@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Tue Dec 17 15:00:11 ICT 2019
-0.baseType=DIRECTORY
-0.base=D\:\\BTCNPM\\SEO3-Group10\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
-0.path=classes.dex
-0.set=DEX
-count=1

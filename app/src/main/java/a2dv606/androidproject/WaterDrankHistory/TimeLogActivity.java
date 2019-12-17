@@ -364,12 +364,22 @@ public class TimeLogActivity extends AppCompatActivity implements View.OnClickLi
             dateTv.setText(values.get(position).getTime());
 
             ImageView typ = (ImageView) itemView.findViewById(R.id.containerTyp);
-            if (values.get(position).getContainerTyp().equals("glass"))
-                typ.setImageDrawable(getResources().getDrawable(R.drawable.water_glass, null));
-            if (values.get(position).getContainerTyp().equals("bottle"))
-                typ.setImageDrawable(getResources().getDrawable(R.drawable.water_bottle, null));
-            if (values.get(position).getContainerTyp().equals("other"))
-                typ.setImageDrawable(getResources().getDrawable(R.drawable.icon_water_drop, null));
+            if(android.os.Build.VERSION.SDK_INT >= 21){
+                if (values.get(position).getContainerTyp().equals("glass"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.water_glass, null));
+                if (values.get(position).getContainerTyp().equals("bottle"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.water_bottle, null));
+                if (values.get(position).getContainerTyp().equals("other"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.icon_water_drop, null));
+            } else {
+                if (values.get(position).getContainerTyp().equals("glass"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.water_glass));
+                if (values.get(position).getContainerTyp().equals("bottle"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.water_bottle));
+                if (values.get(position).getContainerTyp().equals("other"))
+                    typ.setImageDrawable(getResources().getDrawable(R.drawable.icon_water_drop));
+            }
+
 
             waterLog = (TextView) itemView
                     .findViewById(R.id.amount);

@@ -65,10 +65,6 @@ public class ChartActivity extends AppCompatActivity {
        }
 
 
-
-
-
-
         dayBarChart = (BarChart) findViewById(R.id.day_chart);
         BarDataSet barDataSet = new BarDataSet(getYAxisValues(), "The consumed water in ml");
         BarData barData = new BarData(getXAxisValues(), barDataSet);

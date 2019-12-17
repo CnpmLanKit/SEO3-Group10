@@ -15,3 +15,5 @@
 **2. Công nghệ và công cụ**
 * Ngôn ngữ lập trình Java.
 * Nền tảng sử dụng Android.
+
+**3. Hướng dẫn sử dụng**

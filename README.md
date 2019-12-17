@@ -6,10 +6,10 @@
 * Các kết quả then chốt: 
 
 *Tính năng chính:*
-  * Nhắc bạn uống nước mỗi ngày
-  * Ghi lại lượng nước uống hàng ngày của bạn
-  * Động viên bạn với các mục tiêu có thể tùy chỉnh
-  * Số liệu về mức tiêu thụ quá khứ trong tháng
+  * Nhắc bạn uống nước mỗi ngày.
+  * Ghi lại lượng nước uống hàng ngày của bạn.
+  * Động viên bạn với các mục tiêu có thể tùy chỉnh.
+  * Số liệu về mức tiêu thụ quá khứ trong ngày, tuần, tháng, năm.
 
 
 **2. Công nghệ và công cụ**

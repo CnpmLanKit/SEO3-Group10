@@ -52,10 +52,18 @@ public class ChartActivity extends AppCompatActivity {
         TextView drinkInMonth=(TextView) findViewById(R.id.textView3);
         TextView drinkInYear=(TextView) findViewById(R.id.textView4);
 
-        drinkInDay.setText("Total drink for today :"+DateHandler.dayFormat(db.getCurrentDay()));
+        String dateToday = db.getCurrentDay();
+        if (dateToday != null){
+            drinkInDay.setText("Total drink for today :"+DateHandler.dayFormat(dateToday));
+        }
         drinkInWeek.setText("Total drink for last week");
-        drinkInMonth.setText("Total drink from "+ DateHandler.dAndmFormat(db.getMonth())+"-"+DateHandler.dAndmFormat(db.getCurrentDay()));
-        drinkInYear.setText("Total drink from "+DateHandler.monthFormat(db.getYear())+"-"+DateHandler.mAndYFormat(db.getCurrentDay()));
+        if (db.getMonth() != null && db.getCurrentDay() != null ){
+            drinkInMonth.setText("Total drink from "+ DateHandler.dAndmFormat(db.getMonth())+"-"+DateHandler.dAndmFormat(db.getCurrentDay()));
+        }
+       if (db.getYear() != null && db.getCurrentDay() != null ){
+           drinkInYear.setText("Total drink from "+DateHandler.monthFormat(db.getYear())+"-"+DateHandler.mAndYFormat(db.getCurrentDay()));
+       }
+
 
 
 

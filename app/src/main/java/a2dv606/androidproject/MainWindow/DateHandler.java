@@ -43,7 +43,10 @@ public class DateHandler {
         SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date d = null;
         try {
-            d = fmt.parse(date);
+            if (date != null){
+                d = fmt.parse(date);
+            }
+
         } catch (ParseException e) {
             e.printStackTrace();
         }

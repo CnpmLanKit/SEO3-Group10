@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner"
-            android:text="other size"
+            android:text="Kích cớ khác"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginStart="10dp"
            />
@@ -59,7 +59,7 @@
             android:id="@+id/cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cancel"
+            android:text="Hủy"
             android:background="@drawable/round_corner"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginLeft="10dp"

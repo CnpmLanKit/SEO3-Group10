@@ -115,7 +115,7 @@ public class EfeectButon {
         if (intent.resolveActivity(context.getPackageManager()) != null) {
             context.startActivity(intent);
         } else {
-            Toast.makeText(context, "you need install gmail", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Bạn cần cài đặt Gmail!", Toast.LENGTH_SHORT).show();
         }
     }
 

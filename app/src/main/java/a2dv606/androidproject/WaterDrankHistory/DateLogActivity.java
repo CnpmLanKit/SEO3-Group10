@@ -37,7 +37,7 @@ public class DateLogActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         setContentView(R.layout.date_log_activity);
-        setTitle("History");
+        setTitle("Lịch sử");
 
         db = new DrinkDataSource(this);
         db.open();
@@ -91,8 +91,8 @@ public class DateLogActivity extends AppCompatActivity {
             shareButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String text = "I've just been reminded to drink " + dateLog.getWaterInLiter(waterDrank)
-                            + " of " + dateLog.getWaterInLiter(waterNeed) + "L by Daily Water Tracker!";
+                    String text = "Tôi vừa được nhắc uống " + dateLog.getWaterInLiter(waterDrank)
+                            + "của " + dateLog.getWaterInLiter(waterNeed) + " bởi Ứng dụng nhắc nhở uống nước!";
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
                     sendIntent.putExtra(Intent.EXTRA_TEXT, text);

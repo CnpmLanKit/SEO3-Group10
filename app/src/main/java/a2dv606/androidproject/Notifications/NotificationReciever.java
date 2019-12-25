@@ -33,9 +33,9 @@ public class NotificationReciever extends BroadcastReceiver {
     private  Notification.Builder setupNotification(Context context) {
       //  Bitmap largeIcon = BitmapFactory.decodeResource(context.getResources(), R.drawable.drop_notification_icon);
         Notification.Builder builder = new Notification.Builder(context);
-        builder.setSmallIcon( R.drawable.drop_notification_icon).setContentTitle("Water Tracker")
-                .setContentText("It is time to drink water")
-                .setContentInfo("add a drink!").setAutoCancel(true);
+        builder.setSmallIcon( R.drawable.drop_notification_icon).setContentTitle("Theo dõi nước")
+                .setContentText("Đến giờ uống nước rồi!")
+                .setContentInfo("Uống nước!").setAutoCancel(true);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         boolean soundEnable= prefs.getBoolean(PreferenceKey.PREF_SOUND,false);

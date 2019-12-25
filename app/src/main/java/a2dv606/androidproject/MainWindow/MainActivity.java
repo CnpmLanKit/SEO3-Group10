@@ -136,7 +136,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private void updateView() {
         int perValue = db.getConsumedPercentage();
         circleProgress.setProgress(perValue);
-        choosenAmountTv.setText(String.valueOf(db.geConsumedWaterForToadyDateLog() + " out of " +
+        choosenAmountTv.setText(String.valueOf(db.geConsumedWaterForToadyDateLog() + " trên " +
                 PrefsHelper.getWaterNeedPrefs(getApplicationContext()) + " ml"));
     }
 

@@ -51,7 +51,7 @@ public class AddDialog extends Dialog implements View.OnClickListener{
         glassButton.setOnClickListener(this);
         cancel.setOnClickListener(this);
         otherSize.setOnClickListener(this);
-        setTitle("Select drink");
+        setTitle("Lựa chọn");
         loadContainerSizePrefs();
 
     }

@@ -47,7 +47,7 @@ public class OtherSizeDialog  extends Dialog implements View.OnClickListener,Num
         numberPicker.setOnClickListener(this);
 
         setNumberPickerFormat();
-        setTitle("Add drink");
+        setTitle("Uống nước");
     }
     private void setNumberPickerFormat() {
         NumberPicker.Formatter formatter = new NumberPicker.Formatter() {

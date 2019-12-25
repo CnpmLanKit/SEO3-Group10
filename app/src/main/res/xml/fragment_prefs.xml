@@ -1,7 +1,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:preference="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory android:title="Daily Need Measurement "
+    <PreferenceCategory android:title= "Đo lường nhu cầu hàng ngày"
        > </PreferenceCategory>
 
     <alobar.preference.NumberPickerPreference
@@ -10,7 +10,7 @@
         android:icon="@drawable/weight_icon"
         preference:maxValue="@integer/weight_max_vlaue"
         preference:minValue="@integer/weight_min_value"
-        android:summary="Add your weight!"
+        android:summary="Cân nặng của bạn!"
         preference:wrapSelectorWheel="false"
        />
 
@@ -34,11 +34,11 @@
 
     </Preference>
     <PreferenceCategory
-        android:title="Container Size "
+        android:title="Kích cỡ ly "
         >
         <ListPreference
             android:key="key_glass"
-            android:title="Glass size"
+            android:title="Cỡ ly"
             android:defaultValue="250"
             android:icon="@drawable/water_glass"
             android:entries="@array/glass_size_names_array"
@@ -47,7 +47,7 @@
 
         <ListPreference
             android:key="key_bottle"
-            android:title="Bottle size"
+            android:title="Cỡ chai"
             android:defaultValue="1500"
             android:entries="@array/bottle_size_names_array"
             android:entryValues="@array/bottle_size_values_array"
@@ -59,7 +59,7 @@
 
     </Preference>
     <PreferenceCategory
-        android:title="Notifications and Sounds"
+        android:title="Thông báo và âm thanh"
         >
         <SwitchPreference
             android:defaultValue="false"
@@ -78,13 +78,13 @@
         android:key="key_from_time"
         android:defaultValue="8:0"
         android:icon="@drawable/clock_from_icon"
-        android:title="From"
+        android:title="Từ"
         android:enabled="false"/>
     <Preference
         android:key="key_to_time"
         android:defaultValue="20:0"
         android:icon="@drawable/clock_to_icon"
-        android:title="To"
+        android:title="Tới"
         android:enabled="false"/>
     <alobar.preference.NumberPickerPreference
         android:enabled="false"

@@ -321,8 +321,8 @@ public class TimeLogActivity extends AppCompatActivity implements View.OnClickLi
         if (date.equals(DateHandler.getCurrentFormedDate()) && calendar.after(now)) {
 
             AlertDialog alertDialog = new AlertDialog.Builder(TimeLogActivity.this).create();
-            alertDialog.setTitle("Error!");
-            alertDialog.setMessage("This chosen time is after the current time, please chose a valid time!");
+            alertDialog.setTitle("Lỗi!");
+            alertDialog.setMessage("Vui lòng chọn lại!");
             alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
@@ -389,8 +389,8 @@ public class TimeLogActivity extends AppCompatActivity implements View.OnClickLi
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(TimeLogActivity.this);
-                    builder.setMessage("Select action");
-                    builder.setPositiveButton("Update", new DialogInterface.OnClickListener() {
+                    builder.setMessage("Lựa chọn");
+                    builder.setPositiveButton("Cập nhập", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             removedValue = values.get(position).getAmount();
@@ -400,7 +400,7 @@ public class TimeLogActivity extends AppCompatActivity implements View.OnClickLi
                         }
                     });
 
-                    builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
+                    builder.setNegativeButton("Xóa", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             TimeLog time = values.get(position);
@@ -464,7 +464,7 @@ public class TimeLogActivity extends AppCompatActivity implements View.OnClickLi
         int preValue = db.getConsumedPercentage();
         MainActivity.circleProgress.setProgress(preValue);
         MainActivity.choosenAmountTv.setText(String.valueOf(db.geConsumedWaterForToadyDateLog()
-                + " out of " + PrefsHelper.getWaterNeedPrefs(getApplicationContext())) + " ml");
+                + " trên " + PrefsHelper.getWaterNeedPrefs(getApplicationContext())) + " ml");
         adapter.clear();
         adapter.addAll(db.getAllTimeLogs(db.sortByTimeDesc(), date));
         listView.setAdapter(adapter);

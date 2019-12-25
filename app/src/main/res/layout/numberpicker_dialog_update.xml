@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/round_corner"
         android:layout_marginLeft="10dp"
-        android:text="set"
+        android:text="Chọn"
         android:textColor="@color/colorPrimaryDark"
         />
 

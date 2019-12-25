@@ -34,7 +34,7 @@
 
         android:layout_width="168dp"
         android:layout_height="50dp"
-        android:text=" Share advice"
+        android:text="Chia sẻ"
         android:id="@+id/shareBtn"
         android:textColor="@color/colorPrimaryDark"
         android:layout_gravity="bottom|center_horizontal"

@@ -23,7 +23,7 @@
             android:inputType="textMultiLine"
             android:layout_marginTop="40dp"
             android:scrollbars="vertical"
-            android:text="Congratulation!"
+            android:text="Chúc mừng!"
             android:id="@+id/text1"
             android:textStyle="bold"
             android:textSize="30dp"
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="53dp"
-            android:text="the norm is achieved"
+            android:text="Định mức đạt được"
             android:id="@+id/textView5"
             android:textStyle="bold"
             android:textColor="@color/blue"

@@ -38,7 +38,7 @@ public class ChartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chart);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        setTitle("Charts");
+        setTitle("Biểu đồ");
 
         db = new DrinkDataSource(this);
         db.open();
@@ -54,37 +54,37 @@ public class ChartActivity extends AppCompatActivity {
 
         String dateToday = db.getCurrentDay();
         if (dateToday != null){
-            drinkInDay.setText("Total drink for today :"+DateHandler.dayFormat(dateToday));
+            drinkInDay.setText("Tổng lượng nước hôm nay :"+DateHandler.dayFormat(dateToday));
         }
-        drinkInWeek.setText("Total drink for last week");
+        drinkInWeek.setText("Tổng lượng nước tuần này");
         if (db.getMonth() != null && db.getCurrentDay() != null ){
-            drinkInMonth.setText("Total drink from "+ DateHandler.dAndmFormat(db.getMonth())+"-"+DateHandler.dAndmFormat(db.getCurrentDay()));
+            drinkInMonth.setText("Tổng lượng nước từ "+ DateHandler.dAndmFormat(db.getMonth())+"-"+DateHandler.dAndmFormat(db.getCurrentDay()));
         }
        if (db.getYear() != null && db.getCurrentDay() != null ){
-           drinkInYear.setText("Total drink from "+DateHandler.monthFormat(db.getYear())+"-"+DateHandler.mAndYFormat(db.getCurrentDay()));
+           drinkInYear.setText("Tổng lượng nước từ "+DateHandler.monthFormat(db.getYear())+"-"+DateHandler.mAndYFormat(db.getCurrentDay()));
        }
 
 
         dayBarChart = (BarChart) findViewById(R.id.day_chart);
-        BarDataSet barDataSet = new BarDataSet(getYAxisValues(), "The consumed water in ml");
+        BarDataSet barDataSet = new BarDataSet(getYAxisValues(), "Lượng nước tiêu thụ tính bằng ml");
         BarData barData = new BarData(getXAxisValues(), barDataSet);
         dayBarChart.setData(barData);
         dayBarChart.setDescription("");
 
         weekBarChart = (BarChart) findViewById(R.id.week_chart);
-        BarDataSet weekBarDataSet = new BarDataSet(getYAxisWeekValues(), "The consumed water in ml");
+        BarDataSet weekBarDataSet = new BarDataSet(getYAxisWeekValues(), "Lượng nước tiêu thụ tính bằng ml");
         BarData weekBarData = new BarData(getXAxisWeekValues(), weekBarDataSet);
         weekBarChart.setData(weekBarData);
         weekBarChart.setDescription("");
 
         mothBarChart = (BarChart) findViewById(R.id.month_chart);
-        BarDataSet mBarDataSet = new BarDataSet(getYAxisMonthValues(), "The consumed water in ml");
+        BarDataSet mBarDataSet = new BarDataSet(getYAxisMonthValues(), "Lượng nước tiêu thụ tính bằng ml");
         BarData mBarData = new BarData(getXAxisMonthValues(), mBarDataSet);
         mothBarChart.setData(mBarData);
         mothBarChart.setDescription("");
 
         yearBarChart = (BarChart) findViewById(R.id.year_chart);
-        BarDataSet yBarDataSet = new BarDataSet(getYAxisYearValues(),"The consumed water in ml");
+        BarDataSet yBarDataSet = new BarDataSet(getYAxisYearValues(),"Lượng nước tiêu thụ tính bằng ml");
         BarData yBarData = new BarData(getXAxisYearValues(), yBarDataSet);
         yearBarChart.setData(yBarData);
         yearBarChart.setDescription("");
@@ -148,27 +148,27 @@ public class ChartActivity extends AppCompatActivity {
         host.setup();
 
         //Tab 1
-        TabHost.TabSpec spec = host.newTabSpec("Today");
+        TabHost.TabSpec spec = host.newTabSpec("Hôm nay");
         spec.setContent(R.id.linearLayout);
-        spec.setIndicator("Today");
+        spec.setIndicator("Hôm nay");
         host.addTab(spec);
 
         //Tab 2
-        spec = host.newTabSpec("week");
+        spec = host.newTabSpec("Tuần");
         spec.setContent(R.id.linearLayout2);
-        spec.setIndicator(" week");
+        spec.setIndicator("Tuần");
         host.addTab(spec);
 
         //Tab 3
-        spec = host.newTabSpec("month");
+        spec = host.newTabSpec("Tháng");
         spec.setContent(R.id.linearLayout3);
-        spec.setIndicator("month");
+        spec.setIndicator("Tháng");
         host.addTab(spec);
 
         //Tab 3
-        spec = host.newTabSpec("year");
+        spec = host.newTabSpec("Năm");
         spec.setContent(R.id.linearLayout4);
-        spec.setIndicator("year");
+        spec.setIndicator("Năm");
         host.addTab(spec);
     }
 

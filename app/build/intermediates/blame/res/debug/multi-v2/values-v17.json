@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bitbucket\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "D:\\BTCNPM\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\fed021b9eb737e04c214735a9327b1fa\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Win 10 Pro x64\\.gradle\\caches\\transforms-2\\files-2.1\\523af772a111ed577e124bdb8cd6bc99\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

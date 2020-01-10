@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bitbucket\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\BTCNPM\\SEO3-Group10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "E:\\Bitbucket\\SEO3-Group10\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\BTCNPM\\SEO3-Group10\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4,5,7,6,9,8,10",
                         "startColumns": "4,4,4,4,4,4,4",

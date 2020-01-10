@@ -21,7 +21,6 @@
         android:icon="@mipmap/water_drop"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="a2dv606.androidproject.MainWindow.MainActivity" />
         <activity android:name="a2dv606.androidproject.WaterDrankHistory.DateLogActivity" />
@@ -73,11 +72,6 @@
             android:name="a2dv606.androidproject.Widget.UpdateWidgetService"
             android:enabled="true"
             android:exported="true" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="a2dv606.androidproject.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

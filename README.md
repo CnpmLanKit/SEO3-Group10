@@ -4,6 +4,7 @@
 **1. Goals and Objective**
 * Objective : Phát triển phần mền giúp người dùng duy trì thói quen uống nước đầy đủ trong ngày. Bổ sung đầy đủ lượng nước cần thiết cho cơ thể dựa trên công thức khoa học.
 * Các kết quả then chốt: 
+ Hoàn thiện ứng dụng với đầy đủ chức năng ban đầu đề ra. Sử dụng một cách chi tiết một số kĩ thuật phát triển phần mềm.
 
 *Tính năng chính:*
   * Nhắc bạn uống nước mỗi ngày.
@@ -17,3 +18,4 @@
 * Nền tảng sử dụng Android.
 
 **3. Hướng dẫn sử dụng**
+

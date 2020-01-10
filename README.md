@@ -18,4 +18,6 @@
 * Nền tảng sử dụng Android.
 
 **3. Hướng dẫn sử dụng**
-
+* Tải file apk theo đường dẫn :
+https://drive.google.com/file/d/18yxQvRj_iqvghVgpbpEYxaI98NCbdCTq/view?usp=sharing
+* Cài đặt file apk trên và tiến hành kiểm thử.
